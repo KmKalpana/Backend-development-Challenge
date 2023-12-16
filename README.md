@@ -2,6 +2,51 @@
 
 This project is a robust and scalable Node.js backend utilizing MongoDB as the database. It includes user authentication, CRUD operations for user profiles, posts, and comments, along with error handling and clear documentation.
 
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+- [Postman](https://www.postman.com/) or [Insomnia](https://insomnia.rest/download/) for testing APIs
+
+## Setup
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/KmKalpana/Backend-development-Challenge.git
+    ```
+
+2. Navigate to the project folder:
+
+    ```bash
+    cd Backend-development-Challenge
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Create a `.env` file in the root directory and add the following environment variables:
+
+    ```env
+   MONGODB_URI="mongodb+srv://kalpanakathait07:sXNuZ9YZUXBBISje@cluster0.8cqlgkh.mongodb.net/?retryWrites=true&w=majority"
+   JWT_SECRET=KAL123
+   PORT=5000
+   SESSION_SECRET=KAL123
+    ```
+
+5. Run the application:
+
+    ```bash
+    npm start
+    ```
+
+6. The server will be running on `http://localhost:5000`.
+
 
 ## Table of Contents
 
