@@ -1,6 +1,7 @@
-# Node.js Backend Documentation
+# Node.js Backend with MongoDB
 
-Welcome to the documentation for the Node.js backend of our application. This backend is designed to provide a secure and scalable foundation for user management, post handling, and comment functionalities using MongoDB as the database.
+This project is a robust and scalable Node.js backend utilizing MongoDB as the database. It includes user authentication, CRUD operations for user profiles, posts, and comments, along with error handling and clear documentation.
+
 
 ## Table of Contents
 
